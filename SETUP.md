@@ -5,7 +5,7 @@ Follow these steps to set up the environment for this repository:
 ---
 
 ### **1. Download Python**
-- Download and install Python from [https://www.python.org/downloads/](https://www.python.org/downloads/).
+- Download and install **Python 3.10 or higher** from [https://www.python.org/downloads/](https://www.python.org/downloads/).
 - **Make sure to check the box to add Python to your system PATH** during installation. This will allow you to use Python from the command line.
 
 ---
@@ -53,11 +53,6 @@ A virtual environment helps isolate dependencies for this repository.
   python -m venv .venv
   ```
 - **Activate the virtual environment**:
-  - **For Conda users**:
-    ```sh
-    conda create --name .venv python=3.10.0
-    conda activate .venv
-    ```
   - **On Windows**:
     ```sh
     .\.venv\Scripts\activate
@@ -84,5 +79,22 @@ Run these commands to check if everything is set up correctly:
 python --version
 pip --version
 ```
+
+---
+
+### **8. Select the Python Interpreter in VS Code**
+To ensure VS Code uses your virtual environment:
+
+1. Open the repository folder in VS Code
+2. Press `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (macOS) to open the Command Palette
+3. Type **"Python: Select Interpreter"** and select it
+4. Choose the interpreter from your `.venv` folder (e.g., `.venv\Scripts\python.exe` on Windows)
+
+---
+
+### **9. Run the Notebook**
+1. Open `machine-learning.ipynb` in VS Code
+2. Ensure the kernel in the top-right corner shows your `.venv` environment
+3. Click **"Run All"** or run cells individually using the play button
 
 If you encounter any issues, please refer to the official documentation for Python, VS Code, or Git for help troubleshooting.
