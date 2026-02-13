@@ -8,29 +8,7 @@ This project uses machine learning to classify motor skill development in neurot
 
 ## Setup Instructions
 
-### 1. Create a virtual environment
-
-```bash
-python -m venv venv
-```
-
-### 2. Activate the virtual environment
-
-**Windows:**
-```bash
-venv\Scripts\activate
-```
-
-**macOS/Linux:**
-```bash
-source venv/bin/activate
-```
-
-### 3. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
+- [SETUP.mp](SETUP.md) - Detailed set up instructions are provided here to assist with the first-time set up of this repository
 
 ## Running the Analysis
 
