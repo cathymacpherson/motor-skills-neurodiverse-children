@@ -1,5 +1,4 @@
 # virtual environments
 .venv/
-
-# plots
-*.png
+env/
+venv/
