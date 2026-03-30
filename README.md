@@ -28,6 +28,10 @@ The notebook generates:
 
 Generated plots are saved to the `plots/` directory.
 
+## Reference
+
+This repository is designed to support the following publication: [ADD LINK TO PAPER HERE!]
+
 ## License
 
 This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
