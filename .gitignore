@@ -2,3 +2,12 @@
 .venv/
 env/
 venv/
+
+# Non-anonymous data
+Participant_Data.xlsx
+
+# Figures
+Figures/
+
+# R code
+motor_coord_analysis.R
