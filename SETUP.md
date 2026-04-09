@@ -1,8 +1,43 @@
 ## **Set-up Information**
 
-Follow these steps to set up the environment for this repository:
+This repository contains analyses in both **R** (primary: mixed-effects models) and **Python** (secondary: machine learning). Follow the relevant sections below.
 
 ---
+
+## **Part A: R Setup (Mixed-Effects Models)**
+
+### **1. Install R**
+- Download and install **R 4.0 or higher** from [https://cran.r-project.org/](https://cran.r-project.org/)
+
+### **2. Install RStudio (Recommended) or VS Code**
+- **RStudio**: Download from [https://posit.co/download/rstudio-desktop/](https://posit.co/download/rstudio-desktop/)
+- **VS Code**: Install the [R extension](https://marketplace.visualstudio.com/items?itemName=REditorSupport.r) from the Extensions Marketplace
+
+### **3. Install Required R Packages**
+Open R or RStudio and run:
+```r
+install.packages(c(
+  "readxl",
+  "dplyr",
+  "tidyr",
+  "lme4",
+  "lmerTest",
+  "performance",
+  "emmeans",
+  "ggplot2",
+  "grid",
+  "patchwork"
+))
+```
+
+### **4. Run the Analysis**
+1. Open `mixed-effects-models.R` in RStudio or VS Code
+2. Set the working directory to the repository folder
+3. Run the script (Ctrl+Shift+Enter in RStudio, or source the file)
+
+---
+
+## **Part B: Python Setup (Machine Learning)**
 
 ### **1. Download Python**
 - Download and install **Python 3.10 or higher** from [https://www.python.org/downloads/](https://www.python.org/downloads/).
@@ -13,7 +48,7 @@ Follow these steps to set up the environment for this repository:
 ### **2. Download VS Code**
 - Download and install Visual Studio Code (VS Code) from [https://code.visualstudio.com/](https://code.visualstudio.com/).
 - VS Code is recommended for this repository because of its extensions and Python support.
-- To work with Jupyter notebooks in VS Code, install the `Jupyter` extension from the Extensions Marketplace.
+- To work with Jupyter notebooks in VS Code, install the `Jupyter` extension from the Extensions Marketplace. You should also install the `Python` extension.
 
 ---
 
@@ -97,4 +132,11 @@ To ensure VS Code uses your virtual environment:
 2. Ensure the kernel in the top-right corner shows your `.venv` environment
 3. Click **"Run All"** or run cells individually using the play button
 
-If you encounter any issues, please refer to the official documentation for Python, VS Code, or Git for help troubleshooting.
+---
+
+## **Troubleshooting**
+
+If you encounter any issues, refer to the official documentation:
+- [R Documentation](https://cran.r-project.org/manuals.html)
+- [Python Documentation](https://docs.python.org/)
+- [VS Code Documentation](https://code.visualstudio.com/docs)
