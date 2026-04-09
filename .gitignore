@@ -7,7 +7,10 @@ venv/
 Participant_Data.xlsx
 
 # Figures
-Figures/
+Figures/*
 
-# R code
+# Extra R code
 motor_coord_analysis.R
+
+# Extra machine learning code
+machine-learning-full.ipynb

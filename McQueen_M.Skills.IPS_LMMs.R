@@ -548,7 +548,7 @@ RQ1.1_plot <- function(nt) {
 #save individual figures
 for (nt in levels(RQ1.1_plot_df$neurotype_4)) {
   ggsave(
-    filename = paste0("RQ1.1_", nt, ".png"),
+    filename = paste0("Figures/RQ1.1_", nt, ".png"),
     plot     = RQ1.1_plot(nt),
     width    = 9,
     height   = 5,
@@ -583,7 +583,7 @@ RQ1.1_grid <- (RQ1.1_p_TD | RQ1.1_p_ASD_tms) /
 
 #save grid
 ggsave(
-  filename = "RQ1.1_grid.png",
+  filename = "Figures/RQ1.1_grid.png",
   plot     = RQ1.1_grid,
   width    = 12,
   height   = 8,
@@ -727,7 +727,7 @@ RQ1.2_plot <- function(nt) {
 #save individual figures
 for (nt in levels(RQ1.2_plot_df$neurotype_4)) {
   ggsave(
-    filename = paste0("RQ1.2_", nt, ".png"),
+    filename = paste0("Figures/RQ1.2_", nt, ".png"),
     plot     = RQ1.2_plot(nt),
     width    = 9,
     height   = 5,
@@ -762,7 +762,7 @@ RQ1.2_grid <- (RQ1.2_p_TD | RQ1.2_p_ASD_tms) /
 
 #save grid
 ggsave(
-  filename = "RQ1.2_grid.png",
+  filename = "Figures/RQ1.2_grid.png",
   plot     = RQ1.2_grid,
   width    = 12,
   height   = 8,
@@ -875,7 +875,7 @@ RQ2.1_plot <- ggplot(
 
 #save plot
 ggsave(
-  "RQ2.1.png",
+  "Figures/RQ2.1.png",
   plot = RQ2.1_plot,
   width = 9,
   height = 4.5,
@@ -986,7 +986,7 @@ RQ2.2_plot <- ggplot(
   )
 
 ggsave(
-  "RQ2.2.png",
+  "Figures/RQ2.2.png",
   plot = RQ2.2_plot,
   width = 9,
   height = 4.5,
