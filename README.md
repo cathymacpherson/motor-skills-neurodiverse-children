@@ -22,8 +22,8 @@ See [SETUP.md](SETUP.md) for detailed first-time setup instructions for both R a
 ## Running the Analyses
 
 ### 1. Mixed-Effects Models (R)
-1. Open `mixed-effects-models.R` in RStudio or VS Code with R extension
-2. Ensure required packages are installed (see script header)
+1. Open [mixed-effects-models.R](mixed-effects-models.R) in RStudio or VS Code with R extension
+2. Ensure required packages are installed (see [SETUP.md](SETUP.md))
 3. Run the script to generate model outputs and figures
 
 ### 2. Machine Learning (Python)
