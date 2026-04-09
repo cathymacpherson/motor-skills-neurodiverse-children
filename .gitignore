@@ -3,14 +3,15 @@
 env/
 venv/
 
-# Non-anonymous data
+# Non-anonymous/extra data
 Participant_Data.xlsx
+Participant_Data_ml.csv
+McQueen_MSkills_IPS_Data.xlsx
 
-# Figures
-Figures/*
+# Figures (ignore files with ASD, TD, or DCD in name)
+MEM_Figures/*ASD*
+MEM_Figures/*TD*
+MEM_Figures/*DCD*
 
-# Extra R code
-motor_coord_analysis.R
-
-# Extra machine learning code
-machine-learning-full.ipynb
+# Extra scripts
+extra_scripts
