@@ -474,10 +474,10 @@ RQ1.1_plot <- function(nt) {
     ) +
     scale_color_manual(
       values = c(
-        "real — metronome"      = "#00BFC4",
-        "real — experimenter"   = "#F8766D",
-        "pseudo — metronome"    = "#00BFC4",
-        "pseudo — experimenter" = "#F8766D"
+        "real — metronome"      = "#333333",
+        "real — experimenter"   = "#999999",
+        "pseudo — metronome"    = "#333333",
+        "pseudo — experimenter" = "#999999"
       ),
       breaks = c(
         "real — metronome",
@@ -653,10 +653,10 @@ RQ1.2_plot <- function(nt) {
     ) +
     scale_color_manual(
       values = c(
-        "real — metronome"      = "#00BFC4",
-        "real — experimenter"   = "#F8766D",
-        "pseudo — metronome"    = "#00BFC4",
-        "pseudo — experimenter" = "#F8766D"
+        "real — metronome"      = "#333333",
+        "real — experimenter"   = "#999999",
+        "pseudo — metronome"    = "#333333",
+        "pseudo — experimenter" = "#999999"
       ),
       breaks = c(
         "real — metronome",
