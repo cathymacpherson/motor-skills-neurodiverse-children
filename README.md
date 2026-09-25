@@ -1,4 +1,4 @@
-# Movement Skills in Neurodiverse and Neurotypical Children
+# Movement Skills in Neurodivergent and Neurotypical Children
 
 This project investigates interpersonal coordination dynamics during rhythmic tasks in neurotypical and neurodiverse children, and their relationship to motor skill classification.
 
